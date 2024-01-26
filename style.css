@@ -7,11 +7,13 @@ html,
 body {
   margin: 0;
   padding: 0;
+  height: 100%;
 }
 
 header {
-  margin-block-start: 96px;
-  margin-block-end: 64px;
+  margin: 0;
+  padding-block-start: 96px;
+  padding-block-end: 64px;
 }
 
 .title {
@@ -45,7 +47,7 @@ main {
 }
 
 main .max-width-wrapper {
-  padding-block-start: 8px;
+  padding-block: 8px;
   background: white;
   border-bottom: 8px solid #999;
 }
